@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+  <h1>Create a Trello Card</h1>
+  <form id="form" action="create-card" method="POST">
+    <label for="title">Name:</label>
+    <input type="text" id="title" name="title" required>
+
+    <label for="desc">Description:</label>
+    <textarea id="desc" name="desc" required></textarea>
+
+    <label for="due_date">Due Date:</label>
+    <input type="date" id="due_date" name="due_date" required>
+
+    <label for="start_date">Start Date:</label>
+    <input type="date" id="start_date" name="start_date" required>
+
+    <input type="submit" value="Add a Card">
+  </form>
+
+  
+</body>
+</html>
